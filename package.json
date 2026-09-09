@@ -1,0 +1,17 @@
+{
+  "name": "nmjib-mcp",
+  "version": "1.0.0",
+  "description": "내만집(nmjib.com) MCP server — Korean semi-self (반셀프) interior renovation data: 22-step process order with per-size schedules, construction checklists, cost reference ranges and 165 magazine guides. Read-only, no auth. stdio bridge to https://nmjib.com/api/mcp.",
+  "mcpName": "io.github.deall-international/nmjib",
+  "type": "module",
+  "bin": { "nmjib-mcp": "bin/nmjib-mcp.js" },
+  "files": ["bin", "README.md", "server.json", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "interior", "renovation", "korea", "반셀프", "인테리어", "nmjib", "내만집", "claude", "chatgpt", "cursor"],
+  "homepage": "https://nmjib.com/ai",
+  "repository": { "type": "git", "url": "https://github.com/Deall-International/nmjib-mcp.git" },
+  "bugs": { "url": "https://github.com/Deall-International/nmjib-mcp/issues", "email": "support@nmjib.com" },
+  "author": "DeALL International Co., Ltd. <support@nmjib.com> (https://nmjib.com)",
+  "license": "MIT",
+  "scripts": { "start": "node bin/nmjib-mcp.js", "test": "node test/smoke.mjs" }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.deall-international/nmjib",
+  "title": "내만집 (nmjib) — Korean semi-self interior renovation",
+  "description": "Read-only Korean interior renovation data from nmjib.com: 22-step process order with per-size schedules, pre/during/post construction checklists, cost reference ranges and 165 magazine guides. No auth.",
+  "repository": { "url": "https://github.com/Deall-International/nmjib-mcp", "source": "github" },
+  "websiteUrl": "https://nmjib.com/ai",
+  "version": "1.0.0",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://nmjib.com/api/mcp" }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "nmjib-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
