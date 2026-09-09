@@ -1,7 +1,7 @@
 {
   "name": "nmjib-mcp",
   "version": "1.0.0",
-  "description": "내만집(nmjib.com) MCP server — Korean semi-self (반셀프) interior renovation data: 22-step process order with per-size schedules, construction checklists, cost reference ranges and 165 magazine guides. Read-only, no auth. stdio bridge to https://nmjib.com/api/mcp.",
+  "description": "Korean semi-self interior renovation data: process order, schedules, checklists, cost ranges. MCP server for 내만집 (nmjib.com), no auth, stdio bridge to https://nmjib.com/api/mcp.",
   "mcpName": "com.nmjib/nmjib",
   "type": "module",
   "bin": {
