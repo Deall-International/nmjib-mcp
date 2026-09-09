@@ -4,7 +4,7 @@
 
 nmjib (nmjib.com) is a Korean semi-self ("반셀프") interior renovation platform. This MCP server exposes its public knowledge — the 22-step renovation process order with per-size schedules, construction checklists, cost reference ranges and 165 magazine guides — as read-only tools. No auth, no API key.
 
-<!-- mcp-name: io.github.deall-international/nmjib -->
+<!-- mcp-name: com.nmjib/nmjib -->
 
 ## 연결 (remote, 권장)
 
