@@ -37,8 +37,9 @@ stdio 만 지원하는 호스트에서는 이 패키지가 stdin/stdout ↔ HTTP
 | `nmjib_checklist` | 공사 전 36항목 · 공정별(22공정) · 공사 후 검수 22항목 |
 | `nmjib_cost_reference` | 평형·공간·공정 30개 주제의 비용 범위(매거진 후기 집계) + 기준일 + 출처 |
 | `nmjib_faq_search` | 질문에 가장 가까운 FAQ 답 + 출처 URL |
+| `nmjib_worker_apply` · `nmjib_consult_request` · `nmjib_material_request` · `nmjib_partner_inquiry` | 접수(쓰기 전용, 2026-09): 작업자 등록 신청 · 상담·작업자 매칭 문의 · 자재 구매·견적 문의 · 업체 입점 문의. 사용자가 원할 때만, 개인정보 동의 뒤 호출 → 문자 6자리 확인 → `nmjib_verify_code`. 아무 데이터도 되읽지 않음 |
 
-리소스 `nmjib://doc/{id}` · `nmjib://llms.txt`, 프롬프트 `nmjib_banself_plan`. 모든 도구는 `readOnlyHint: true`.
+리소스 `nmjib://doc/{id}` · `nmjib://llms.txt`, 프롬프트 `nmjib_banself_plan`. 읽기 도구 6개는 `readOnlyHint: true`, 접수 도구는 `readOnlyHint: false`(파괴적 아님·멱등)라 클라이언트가 실행 전 확인을 띄웁니다.
 
 ## 정책
 
